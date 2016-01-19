@@ -1,0 +1,119 @@
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -10;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+
+    background-size: cover;
+}
+
+h1 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 88px;
+  color: white;
+  margin: auto;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+h2 {
+  font-size:34px;
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+  margin-top: -10px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+div#background-darken {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -5;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+}
+
+div#title-block {
+  height: 35em;
+  width: 75%;
+  margin: auto;
+  padding: 40px;
+  position: relative;
+}
+
+div#title-div {
+  margin-top: 200px;
+}
+
+div.nav-list {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+}
+
+div.nav-list ul {
+  margin-right: 20%;
+  margin-top: 2%;
+  list-style-type: none;
+}
+
+div.nav-list ul li {
+  font-family: 'Economica', sans-serif;
+  font-size: 22px;
+  margin: 1%;
+  float: right;
+  letter-spacing: 1.4px;
+  color: white;
+  display: inline;
+}
+
+div.nav-list ul li:hover {
+  color: #727475;
+  cursor:pointer;
+}
+/*ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -3;
+}*/
+/* FONTS
+font-family: 'Yanone Kaffeesatz', sans-serif;
+
+font-family: 'Shadows Into Light', cursive;
+
+font-family: 'Amatic SC', cursive;
+
+font-family: 'Architects Daughter', cursive;
+
+font-family: 'Gloria Hallelujah', cursive;
+
+font-family: 'Economica', sans-serif;*/
