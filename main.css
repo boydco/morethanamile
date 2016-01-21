@@ -78,9 +78,10 @@ div.nav-list ul {
   margin-right: 20%;
   margin-top: 2%;
   list-style-type: none;
+  z-index: 800;
 }
 
-div.nav-list ul li {
+div.nav-list ul li a {
   font-family: 'Economica', sans-serif;
   font-size: 22px;
   margin: 1%;
@@ -90,10 +91,63 @@ div.nav-list ul li {
   display: inline;
 }
 
-div.nav-list ul li:hover {
+div.nav-list ul li a:hover {
   color: #727475;
   cursor:pointer;
 }
+
+div.body-section {
+  width: 100%;
+  height: 550px;
+  background-color: white;
+}
+
+div#lowerNav {
+    position: absolute;
+    color: white;
+    top: 125%;
+    padding: 3% 15%;
+    border: 2px solid rgba(255, 255, 255, .1);
+    border-radius: 5%;
+
+}
+
+div#blanch {
+  margin-top: 25%;
+  background-color: #729557;
+}
+
+div#blanch h1 {
+  color: #fff;
+}
+
+div#fundraiser {
+  background-color: brown;
+}
+
+div#contact {
+  background-color: #75dfa0;
+}
+
+footer {
+  background-color: white;
+  position: fixed bottom;
+  text-align: center;
+  height: 60px;
+  padding-top: 24px;
+  color: #c7d1cf;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #9dafac;
+  text-decoration: none;
+}
+
 /*ul {
     list-style-type: none;
     margin: 0;
