@@ -96,6 +96,7 @@ a:focus {
     font-weight: 400;
 }
 
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -192,22 +193,7 @@ video#bgvid {
     background-size: cover;
 }
 
-/*div#background-darken {
-  background-color: rgba(0, 0, 0, 0.8);
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -5;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background-size: cover;
-}*/
+
 
 .intro {
     display: table;
@@ -240,6 +226,24 @@ video#bgvid {
     font-size: 18px;
 }
 
+#title-div h1 {
+    font-size: 110px;
+}
+
+#title-div h2 {
+    font-size: 40px;
+}
+
+.documentary-section h1 {
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+.documentary-section p {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin: 15px;
+}
+
 @media(min-width:768px) {
     .intro {
         height: 100%;
@@ -258,7 +262,7 @@ video#bgvid {
 .btn-circle {
     width: 70px;
     height: 70px;
-    margin-top: 15px;
+    margin-top: 55px;
     padding: 7px 16px;
     border: 2px solid #fff;
     border-radius: 100%!important;
@@ -336,9 +340,21 @@ video#bgvid {
 .download-section {
     width: 100%;
     padding: 50px 0;
-    margin-top: -22%;
+    margin-top: -12%;
     color: #fff;
     background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.documentary-section {
+    width: 100%;
+    padding: 50px 0;
+    margin-top: -22%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .5);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -371,8 +387,31 @@ video#bgvid {
     margin-bottom: 6%;
 }
 
+#contact {
+    background-color: black;
+    width: 100%;
+}
+
 #social-icons {
     margin: 0 -15px -15px 0;
+}
+
+.beer-rules {
+    font-family: 'Economica', sans-serif;
+    font-size: 45px;
+    margin: 20px;
+    
+}
+
+.beer-rules li {
+    font-size: 24px;
+    margin: 14px;
+    text-align: left;
+}
+
+#kickstart {
+    margin-top: -10%;
+    margin-bottom: 5%;
 }
 
 .charlie-pic {
@@ -381,7 +420,6 @@ video#bgvid {
     border-radius: 150px;
     -webkit-border-radius: 150px;
     -moz-border-radius: 150px;
-    background: url(./charlie-blanch.jpg) no-repeat;
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -395,6 +433,12 @@ video#bgvid {
     .download-section {
         padding: 100px 0;
         margin-top: -25%;
+    }
+
+     .documentary-section {
+        padding: 100px 0;
+        margin-top: -20%;
+        background-color: rgba(0, 0, 0, .5);
     }
 
     #map {
@@ -450,11 +494,37 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 25px 0;
+    background-color: rgb(95, 185, 170);
 }
+
+
 
 footer p {
     margin: 0;
+    font-size: 12px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.social-footer a {
+    color: white;
+}
+
+.social-footer ul {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+
+}
+
+.social-footer li {
+    display: inline-block;
+    vertical-align:  middle;
+    margin: 5px;
+}
+
+.social-footer a:hover {
+    color: rgb(54, 124, 111);
 }
 
 ::-moz-selection {
