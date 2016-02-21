@@ -1,97 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../bootstrap_v3/docs-assets/ico/favicon.png">
 
+    <title>More Than a Mile Documentary</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Shadows+Into+Light|Architects+Daughter|Economica' rel='stylesheet' type='text/css'>
-
-    <title>Starter Template for Bootstrap</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <!-- Bootstrap-map-js -->
-    <link rel="stylesheet" type="text/css" href="//js.arcgis.com/3.13/esri/css/esri.css">
-    <link rel="stylesheet" type="text/css" href="../../src/css/bootstrapmap.css">
     <link href="http://vjs.zencdn.net/4.11/video-js.css" rel="stylesheet">
 
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="../bootstrap_v3/docs-assets/js/html5shiv.js"></script>
-      <script src="../bootstrap_v3/docs-assets/js/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
 
-  <body>
+</head>
 
-    <video autoplay loop poster="charlie-blanch1.jpg" id="bgvid">
-      <source src="charlie-vid-final.mp4" type="video/mp4">
-    </video>
-    <div id="background-darken"></div>
-    <div id="title-block">
-      <header>
-        <nav>
-          <div class="nav-list">
-            <ul>
-              <li><a href="#contact">Contact</a></li>
-              <li><a href="#fundraiser">The Fundraiser</a></li>
-              <li><a href="#race">The Race</a></li>
-              <li><a href="#blanch">The Blanch</a></li>
-            </ul>
-          </div>
-        </nav>
-        <div class="lowerNav">
-          <div class="learnMore">Learn More</div>
-        </div>
-      </header>
-      <div id="title-div">
-        <h1>MORE THAN A MILE</h1>
-        <h2>A DOCUMENTARY<h2>
-      </div>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    
     </div>
-    <section>
-      <div class="body-section" id="blanch">
-        <div class="row">
-          <div class="col-md-6" id="charlie-pic">Charlie pic go here</div>
-            <h1> The Blanch <h1>
-          <div class="col-md-6" id="charlie-bio">Write a bio about the chaz</div>
-        </div>
-      </div>
-      <div class="body-section" id="race">
-        <div class="row">
-          <div class="col-md-6" id="">What is the beer mile?
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Support</span> the Journey
+                </a>
+            </div>
 
-          </div>
-          <div class="col-md-6" id="charlie-bio">rules and when</div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Meet Charlie</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">The Race</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">The Documentary</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://twitter.com/morethanamile_"><i id="social-icons" class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/morethanamiledoco/"><i id="social-icons" class="fa fa-facebook-official fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.youtube.com/channel/UC717jSNODhI16FtI32_Kc6g"><i id="social-icons" class="fa fa-youtube-square fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </div>
-      <div class="body-section" id="fundraiser">
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+   
+    <header class="intro">
+       
+        <div class="intro-body">
+        
+            <div class="container">
+           
+                <div class="row">
+                 
+                    <div class="col-md-8 col-md-offset-2">
+                    <video autoplay loop poster="charlie-blanch1.jpg" id="bgvid">
+                 <source src="charlie-vid-final.mp4" type="video/mp4">
+    </video>
+                      <div id="title-div">
+                        <h1>MORE THAN A MILE</h1>
+                        <h2>A DOCUMENTARY</h2>
+                      </div>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
         <div class="row">
-          <div class="col-md-6" id="">Kickstarter to get Charlie to world championships in America and finish the documentary about it</div>
-          <div class="col-md-6" id="charlie-bio">Put video of kickstarter in middle</div>
+            <div id="about-text" class="col-lg-8 col-lg-offset-2">
+                <h2>Meet Charlie</h2>
+                <p>Hailing from Yarrawonga, Victoria, Charlie Blanch is currently ranked number 2 in the beer mile across all of Australia. </p>
+                <p>Having competed in races across Australia in the U.S. Charlie is on a new mission to be the best in the world at the upcoming 2016 Beer Mile World Championship.</p>
+                <p>Charlie is a runner, an athlete, a drinker, an all around good bloke, ready to go more than a mile.</p>
+                <img class="charlie-pic" src="charlie-blanch.jpg" alt="Charlie Blanch">
+            </div>
+
         </div>
-      </div>
-      <div class="body-section" id="contact">
-        <p>BUILD CONTACT FORM HERE</p>
-      </div>
     </section>
-    <footer><p>built by <a href="http://colinboyd.me">Colin Boyd.</a></p></footer>
 
+    <!-- Download Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>Beer Mile Race Rules</h2>
+                    
+                    <a target="_blank" href="http://www.beermile.com/rules" class="btn btn-default btn-lg">See the Official Rules</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+     <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <iframe width="100%" height="450"
+                        src="http://www.youtube.com/embed/1y013CfVQRw">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Start Bootstrap</h2>
+                <p>Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!</p>
+                <p><a href="mailto:feedback@startbootstrap.com">feedback@startbootstrap.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
+    <!-- Map Section -->
+    <div id="map"></div>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://vjs.zencdn.net/4.11/video.js"></script>
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  </body>
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Your Website 2014</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
 </html>

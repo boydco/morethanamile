@@ -74,6 +74,12 @@ div.nav-list {
   list-style-type: none;
 }
 
+div.lowerNav {
+  color: white;
+  position: absolute;
+  margin: auto;
+}
+
 div.nav-list ul {
   margin-right: 20%;
   margin-top: 2%;
